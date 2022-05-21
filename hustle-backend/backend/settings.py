@@ -165,8 +165,12 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# CORS_ORIGIN_WHITELIST = [
+#     'http://localhost:3000'
+# ]
+
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000'
+    'https://628886a2c56f595501d1cc5d--monumental-shortbread-1da634.netlify.app/'
 ]
 
 REST_FRAMEWORK = {
